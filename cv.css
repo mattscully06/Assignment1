@@ -166,3 +166,19 @@ img {
 p {
     max-width: 1350px;
 }
+.cv-title a{
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    background-color: green;
+    width: 150px;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+.cv-title a:hover{
+    color:black
+}
