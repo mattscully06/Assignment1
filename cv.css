@@ -149,7 +149,7 @@ img {
     grid-template-columns: 1fr 3fr;
     z-index: -20;
 }
-.portfolio-title {
+.cv-title {
     overflow-y: scroll;
     padding: 0px;
     margin:0;
@@ -158,7 +158,10 @@ img {
     text-align: left;
     font-size: 22px;
     z-index: -2;
-    text-align: center;
+    text-align: left;
+}
+.cv-title h1 {
+    color:white;
 }
 p {
     max-width: 1350px;
