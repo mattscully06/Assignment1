@@ -149,7 +149,7 @@ img {
     grid-template-columns: 1fr 3fr;
     z-index: -20;
 }
-.portfolio-title {
+.report-title {
     overflow-y: scroll;
     padding: 0px;
     margin:0;
@@ -158,8 +158,20 @@ img {
     text-align: left;
     font-size: 22px;
     z-index: -2;
-    text-align: center;
+    text-align: left;
 }
+.report-title h1 {
+    color:white;
+    text-transform: uppercase;
+}
+.report-title h2 {
+    Color: white;
+    text-transform: uppercase;
+}
+.report-title h3{
+    text-transform: uppercase;
+}
+
 p {
     max-width: 1350px;
 }
