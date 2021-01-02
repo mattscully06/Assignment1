@@ -8,23 +8,31 @@ nav {
     float: right;
     z-index: 999;
 }
-nav ul { 
-    margin:5px;
-    padding:5px;
-    list-style: none;
-
+.sidebar{
+    display: none;
 }
-nav li {
-    display: inline-block;
-    margin-right: 15px;
-    margin-top: 12px;
+.text{
+    margin:0;
+    padding:0;
+    width: 100%;
 }
-nav a {
-    color: white;
-    font-size: 22px;
-    text-decoration: none;
-    text-transform: uppercase;
+p{
+    max-width: 1000px;
+    display: block;
 }
-nav a:hover{
-    color:black;
+.shownav::before {
+    content: '';
+    position:absolute;
+    width:100%;
+    top: 0.3em;
+    left: 0px;
+    border-top: 0.2em solid white;
+}
+.shownav {
+    height: 0.8em;
+    width: 1.25em;
+    display: block;
+    border-top: 0.2em solid white;
+    border-bottom: 0.2em solid white;
+    border-radius: 0.1em;
 }
