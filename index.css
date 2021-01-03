@@ -24,6 +24,7 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
+    margin-top: 10px;
 
 }
 .title {
@@ -43,6 +44,7 @@ nav {
 nav ul { 
     margin:5px;
     padding:5px;
+    display: inline;
     list-style: none;
 
 }
@@ -50,6 +52,11 @@ nav li {
     display: inline-block;
     margin-right: 15px;
     margin-top: 12px;
+}
+nav ul ul {
+    top:0;
+    display: inline;
+    margin-top:0;
 }
 nav a {
     color: white;
