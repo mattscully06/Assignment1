@@ -35,66 +35,38 @@ body {
 
 }
 nav {
-    position: fixed;
+    position: relative;
     text-align: right;
     left:0; 
     background-color: green;  
     border-bottom: 4px solid white;
-    border-top: 4px solid white;
     width: 100%; 
     float: right;
-    z-index: 9999;
-    
+    z-index: 999;
 }
 nav ul { 
-    margin:0;
-    padding:0;
+    margin:5px;
+    padding:5px;
+    display: inline;
     list-style: none;
-    
 
 }
 nav li {
-    color: white;
-    font-size: 22px;
-    text-decoration: none;
-    text-transform: uppercase;
-    float: right;
-    position: relative;
-
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 12px;
+}
+nav ul ul {
+    top:0;
+    display: inline;
+    margin-top:0;
 }
 nav a {
     color: white;
     font-size: 22px;
     text-decoration: none;
     text-transform: uppercase;
-    display: block;
-    background-color: green;
-    width: 150px;
-    border-right: 2px solid white;
-    border-left: 2px solid white;
-    border-bottom: 2px solid white;
-
 }
-nav > ul > li {
-    position: relative;
-
-
-}
-nav ul ul {
-    position: absolute;
-    display: block;
-    background-color: green;
-    width: 100%;
-    transform: translate(160px,12px);
-    transition: transform 0.6s ease-in;
-    margin-top: 2px;
-    z-index: -1;
-
-  }
-nav > ul > li:hover ul {
-    transform: translate(0px,12px);
-}
-
 nav a:hover{
     color:black;
 }

@@ -22,6 +22,7 @@ nav ul li{
 }
 nav li {
     color: white;
+    display: block;
     font-size: 22px;
     text-decoration: none;
     text-transform: uppercase;
@@ -29,8 +30,9 @@ nav li {
     margin-left: 10px;
 
 }
-.title{
-    text-align: center;
+.portfolio-title{
+    font-size: calc(1em + 1vw);
+    width:100vw;
 }
 nav ul ul{
     display: block;
@@ -74,6 +76,7 @@ nav ul ul li{
     border-top: 0.2em solid white;
 
 }
+
 .contact-page{
     display: grid;
     grid-template-columns: 50% 50%;
