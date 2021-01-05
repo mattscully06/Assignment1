@@ -42,7 +42,6 @@ nav li {
 nav ul ul{
     display: block;
     background-color: green;
-    position: fixed;
     top:0;
     left:70%;
     margin-left: 0px;
@@ -50,11 +49,30 @@ nav ul ul{
     height:100vh;
     text-align: left;
     border-left: 2px solid white;
-    transform: translate(100%,0);
-    transition: transform 0.6s ease-in;
 }
-nav > ul li:hover ul{
-    transform: translate(0,0);
+#menu {
+    position: fixed;
+    display: none;
+}
+#menu li:not(:target){
+    display: none;
+}
+#menu:target {
+    display: block;
+}
+#menu:target li{
+    display: block;
+}
+.close{
+background:green;
+  color: #fff;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
 }
 nav > ul > li {
     position: relative;
@@ -65,7 +83,6 @@ nav ul ul li{
     float: left;
 }
 .shownav{
-    margin-right: 8px;
     height:0.6em;
     width: 1.25em;
     display: block;
