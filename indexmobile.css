@@ -47,17 +47,17 @@ nav ul ul{
     text-align: left;
     border-left: 2px solid white;
 }
-#menu li{
+#menu {
     position: fixed;
     display: none;
 }
 #menu li:not(:target){
     display: none;
 }
-#menu li:target{
+#menu:target {
     display: block;
 }
-#menu li:target {
+#menu:target li{
     display: block;
 }
 .close{
