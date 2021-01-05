@@ -19,6 +19,9 @@ body {
     opacity: 100%;
     height :30px
 }
+.close{
+    display: none;
+}
 .title {
     float:left;
     margin: 5px;

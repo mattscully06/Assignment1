@@ -78,6 +78,9 @@ nav a:hover{
     z-index: -100;
     
 }
+.close{
+    display: none;
+}
 .sidebar ul{
     margin:5px;
     padding: 5px;

@@ -58,6 +58,9 @@ nav ul ul {
     display: inline;
     margin-top:0;
 }
+.close{
+    display: none;
+}
 nav a {
     color: white;
     font-size: 22px;
