@@ -2,7 +2,7 @@ body {
     background-color: black;
     margin:0;
     overflow: hidden;
-    background-image: url(background.jpeg);
+    background-image: url(Images/background.jpeg);
 }
 .sidebar{
     display:none;

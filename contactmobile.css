@@ -2,7 +2,7 @@ body {
     background-color: black;
     margin:0;
     overflow: hidden;
-    background-image: url(background.jpeg);
+    background-image: url(Images/background.jpeg);
 }
 .sidebar{
     display:none;
@@ -106,6 +106,7 @@ p {
 .form{
     margin-left: 5px;
     width:100vw;
+    height: 100vh;
     grid-column: 1;
     right:50px;
 }
