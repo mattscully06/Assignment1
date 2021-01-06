@@ -59,6 +59,7 @@ nav ul ul{
 }
 .close{
 background:green;
+display: block;
   color: #fff;
   font-family: 'Helvetica', 'Arial', sans-serif;
   font-size: 1em;

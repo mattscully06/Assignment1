@@ -126,6 +126,9 @@ body {
   color:white;
   display: inline;
 }
+.close{
+  display: none;
+}
 nav {
   position: relative;
   text-align: right;
