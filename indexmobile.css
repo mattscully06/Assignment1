@@ -61,7 +61,7 @@ nav ul ul{
     display: block;
 }
 .close{
-background:green;
+display: block;
   color: #fff;
   font-size: 1em;
   text-align: center;
